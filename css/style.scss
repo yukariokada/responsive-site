@@ -1,0 +1,71 @@
+@import "compass";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+// font-family
+$baseFontFamily :"游ゴシック", YuGothic, "メイリオ",Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+// colors
+$baseColor: #fdfcf6;
+$subColor: #bea300;
+$keyColor: #14c0c9;
+$fontColor: #4c4c4c;
+
+
+.headerimage {
+  background-image: url(../images/UNI18623PTS123_TP_V.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 768px) {
+  .headerimage{ height:250px;}
+}
+
+.section h1{
+  text-align:center;
+}
+
+.container h1{
+  text-align:center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box1,.box2,.box3{
+  border: solid 1px #000000;
+  margin: 10px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+footer{
+background-color:#14c0c9;
+  padding: 20px 0;
+  text-align: center;
+  
+  }
+  
+.contact {
+  text-align:center;
+}
+
+.contact h1{
+  margin-bottom:20px;
+}
+ 
+.btn{
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: black;
+}
